@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  border: #282c34;
 }
 
 .App-logo {
@@ -28,11 +29,11 @@
   color: #61dafb;
 }
 .buuton button {
-  margin: 20px;
+  margin: 40px;
   border: none;
   padding: 10px 30px;
   cursor: pointer;
-  color: #fff;
+  color: #811212;
 
 }
 

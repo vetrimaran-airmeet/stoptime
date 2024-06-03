@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 5px solid;
+    border-radius: 50px;
+    padding: 30px;
+
+
+}
+
+
+.bruton{
+    color: rgb(238, 238, 242);
+    background-color: rgb(36, 52, 36);
+    border:none;
+    cursor:pointer;
+}
+.bluton{
+    color: rgb(245, 245, 249);
+    background-color: rgb(30, 147, 30);
+    border:none;
+    cursor:pointer;
+    border-radius: 5px;
+}

@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './new.css';
 import { useEffect, useState } from 'react';
 function App() {
   
@@ -31,18 +31,18 @@ function App() {
   const ssec=Math.floor(time%100)
 
   return (
+    <>
     <div className="App">
       
-      <h1>{min}:{sec}:{ssec}</h1>
-      <div classname='buuton'>
-        <button className='bluton' onClick={start}>
+      <h1>{min}:{sec.toString().padStart("2",0)}:{ssec.toString().padStart("2",0)}</h1>
+      
+        <button className="bluton" onClick={start}>
           {isrunning ?"stop":"start"}
         </button>
-        <button classname='bruton' onClick={reset}>
-        reset
-        </button>
-      </div>
+        <button classname="bruton" onClick={reset}>reset</button>
+      
     </div>
+    </>
   );
 }
 
